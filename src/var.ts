@@ -8,4 +8,9 @@ export const BRICK_COLUMNS = 7;
 export const BRICK_HEIGHT = 20;
 export const BRICK_GAP = 3;
 
+export const PADDLE_CONTROLS = {
+    'ArrowLeft': -1,
+    'ArrowRight': 1
+}
 
+export const TICKER_INTERVAL = Math.ceil(1000 / 60)
